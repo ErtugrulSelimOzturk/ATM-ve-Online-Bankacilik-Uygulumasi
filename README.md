@@ -83,3 +83,38 @@ sequenceDiagram
     Kullanıcı->>ALB: HTTP(S) İsteği
     ALB->>EC2: Yönlendirme
     EC2-->>Kullanıcı: JSON/HTML Yanıt
+
+
+## Sonuç ve Değerlendirme
+
+| Hedef                | Durum | Açıklama                            |
+|----------------------|:-----:|-------------------------------------|
+| **Yüksek Erişilebilirlik** | ✔️ | Uygulama çoklu AZ’de çalışıyor.      |
+| **Güvenlik**         | ✔️ | IAM, WAF ve Shield katmanlı koruma sağlar. |
+| **Ölçeklenebilirlik**| ✔️ | ALB + Auto Scaling talebe göre kapasiteyi ayarlar. |
+| **Gözlemlenebilirlik** | ✔️ | CloudWatch metrik ve log’lar ile izlenir. |
+
+Bu yapı sayesinde sistem **kesintisiz**, **güvenli** ve **talep artışına dayanıklı** biçimde çalışmaktadır.
+
+## Projenin Arayüzü
+
+### ATM
+
+<img src="screenshots/atm_main.png" alt="ATM Ana Ekran" width="700" />
+
+- **Güncel Bakiye** görüntüler.
+- **Para Çek / Para Yatır / Borç Öde** işlemleri.
+- Yetersiz bakiye gibi durumlarda kullanıcı dostu uyarılar.
+
+### Online Bankacılık
+
+<img src="screenshots/online_banking.png" alt="Online Bankacılık" width="700" />
+
+- **Para Transferi**, **Yaklaşan Ödemeler** ve **İşlem Geçmişi**.
+- Tüm formlarda sunucu‑taraflı doğrulama (kart no, PIN, bakiye vb.).
+
+## Canlı Demo ve Kaynak Kod
+
+| Bağlantı | Açıklama |
+|----------|----------|
+| **🔗 Canlı Demo** | <http://bank-app.metricopt.com/> |
