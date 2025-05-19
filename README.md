@@ -83,11 +83,5 @@ sequenceDiagram
     ALB->>EC2: Yönlendirme
     EC2-->>Kullanıcı: JSON/HTML Yanıt
 
-## Sonuç ve Değerlendirme
-| Hedef                      | Durum | Açıklama                                           |
-| -------------------------- | :---: | -------------------------------------------------- |
-| **Yüksek Erişilebilirlik** |   ✔️  | Uygulama çoklu AZ’de çalışıyor.                    |
-| **Güvenlik**               |   ✔️  | IAM, WAF ve Shield katmanlı koruma sağlar.         |
-| **Ölçeklenebilirlik**      |   ✔️  | ALB + Auto Scaling talebe göre kapasiteyi ayarlar. |
-| **Gözlemlenebilirlik**     |   ✔️  | CloudWatch metrik ve log’lar ile izlenir.          |
+
 
