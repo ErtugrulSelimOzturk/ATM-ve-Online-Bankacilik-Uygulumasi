@@ -4,6 +4,7 @@
 > **Ders:** Bilgisayar Ağları – Proje Final Raporu  
 > **Dönem:** 2024‑2025 Bahar  
 > **Üniversite:** T.C. Marmara Üniversitesi, Teknoloji Fakültesi, Bilgisayar Mühendisliği Bölümü
+> **Proje Link:** http://bank-app.metricopt.com/
 
 ## Hazırlayanlar
 
