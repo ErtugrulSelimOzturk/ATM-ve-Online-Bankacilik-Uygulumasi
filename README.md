@@ -8,11 +8,11 @@
 
 ## Hazırlayanlar
 
-| İsim | Öğrenci No |
-| ---- | ---------- |
-| Arif Küçükeşmekaya | 170423049 |
-| Şevval Çulcu | 171423961 |
-| Ertuğrul Selim Öztürk | 171423011 |
+| İsim |
+| ---- |
+| Arif Küçükeşmekaya |
+| Şevval Çulcu |
+| Ertuğrul Selim Öztürk |
 
 ---
 
